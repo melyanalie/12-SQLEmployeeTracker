@@ -1,4 +1,4 @@
-const inquirer = require('inquirer').default;
+const inquirer = require('inquirer');
 const { Client } = require('pg');
 
 const client = new Client({
@@ -11,7 +11,7 @@ const client = new Client({
 
 client.connect();
 
-const mainMenu = async () => {
+async function mainMenu() {
     const { action } = await inquirer.prompt({
         type: 'list',
         name: 'action',
