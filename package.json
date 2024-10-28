@@ -4,8 +4,7 @@
   "description": "A command-line application to manage employees in a company.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "start": "node src/app.js"},
   "keywords": [],
   "author": "",
   "license": "ISC",
