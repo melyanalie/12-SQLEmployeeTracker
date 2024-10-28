@@ -1,4 +1,4 @@
-const inquirer = require('inquirer');
+const inquirer = require('inquirer').default;
 const { Client } = require('pg');
 
 const client = new Client({
